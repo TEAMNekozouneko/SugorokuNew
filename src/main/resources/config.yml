@@ -1,0 +1,10 @@
+dice:
+    # カスタムモデルデータがある場合は指定の数字をない場合は-1
+    CustomModelData: -1
+
+    squares:
+        min: 1
+        max: 6
+
+values:
+    - "ねこぞうねこに電話"

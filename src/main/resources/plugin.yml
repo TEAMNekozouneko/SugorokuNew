@@ -1,0 +1,16 @@
+name: Sugoroku
+version: '${project.version}'
+main: com.nekozouneko.sugoroku.Sugoroku
+api-version: 1.16
+authors: [ Taitaitatata ]
+description: すごろくを書き直したやつ
+website: "https://www.nekozouneko.com"
+
+commands:
+    get-dice:
+        aliases: ["getdice", "gd"]
+        description: "サイコロを入手します"
+        usage: "/<command> [<target>]"
+    sugoroku:
+        aliases: ["sg"]
+        description: ""
